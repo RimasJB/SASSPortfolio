@@ -1,0 +1,20 @@
+// variables
+
+$website-width: 1290px;
+$main-color: #ffbc00;
+$light-color: #f4f4f4;
+$dark-color: #333;
+$medium-color: #ccc;
+// note that this path does NOT pertain to
+// the current path but to the path into
+// which package.json tells sass to put output css file
+$bg-image: url("../img/showcase.jpg");
+
+// set text color
+@function set-text-color($color) {
+  @if (lightness($color) >50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "portfoliomain",
+  "version": "1.0.0",
+  "description": "Development area for Udemy Traversy SASS Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Brad Traversy/R. Blekaitis",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
